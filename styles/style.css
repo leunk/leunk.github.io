@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(14,29,223);
+    background-color: #0815bd;
     color: #f5f5f5;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -40,6 +40,7 @@ h2, h3{
     font-weight: bolder;
 }
 
+
 footer{
     color: rgba(255,255,255,0.5); 
     padding-top: 20px;
@@ -54,6 +55,7 @@ footer{
     body{
         padding: 20px 60px 0 60px;
     }
+
     .our-process img{
         margin-bottom: 0;
         padding-bottom: 0;
@@ -67,7 +69,7 @@ footer{
    /* From 768px and up */
    @media (min-width: 768px) { 
      .industries{
-        display: flex;
+        display: flex; 
         gap: 20px;
         padding: 20px 0 20px 0;
     }
@@ -98,9 +100,19 @@ footer{
     body{
         padding: 20px 200px 0 200px;
     }
+    .our-process {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
    }
    
    /* From 1224px and up */
    @media (min-width: 1224px) { 
+    .our-process {
+        display: flex;
+        justify-content: initial;
+        align-items: center;
+    }
      }  
     
